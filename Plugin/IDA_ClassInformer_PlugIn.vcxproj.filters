@@ -44,8 +44,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Core.cpp" />
-    <ClCompile Include="Main.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="Vftable.cpp" />
     <ClCompile Include="MainDialog.cpp" />
@@ -67,32 +65,14 @@
     <ClCompile Include="GeneratedFiles\qrc_ClassInformerRes.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="Core.h" />
     <CustomBuild Include="RTTI.h" />
     <CustomBuild Include="StdAfx.h" />
     <CustomBuild Include="Vftable.h" />
     <CustomBuild Include="undname.h">
       <Filter>Misc</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Class_Informer.txt">
-      <Filter>Doc</Filter>
-    </CustomBuild>
-    <CustomBuild Include="List Window Child Widgets.txt">
-      <Filter>Doc</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Notes.txt">
-      <Filter>Doc</Filter>
-    </CustomBuild>
-    <CustomBuild Include="ScratchPad.txt">
-      <Filter>Doc</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Temp.txt">
-      <Filter>Doc</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Update TODO.txt">
-      <Filter>Doc</Filter>
     </CustomBuild>
     <CustomBuild Include="dialog.ui">
       <Filter>Form Files</Filter>
@@ -109,6 +89,7 @@
     <ClInclude Include="..\..\IDA_Support\SupportLib\Utility.h">
       <Filter>Misc</Filter>
     </ClInclude>
+    <ClInclude Include="Main.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="completed.ogg">
@@ -134,5 +115,31 @@
     <Image Include="checkbox-checked.png">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Doc\classes.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\List Window Child Widgets.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\Notes.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\Qt Build and MOC stuff.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\ScratchPad.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\Temp.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Doc\Update TODO.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="Class_Informer.txt">
+      <Filter>Doc</Filter>
+    </Text>
   </ItemGroup>
 </Project>
